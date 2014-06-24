@@ -16,18 +16,18 @@ cd /Applications/NetBeans/glassfish-4.0/bin/
   3. Criação da classe HelloWorldResource no projeto;
   4. Adição do código fonte à classe HelloWorldResource;
 ```java
-    import javax.ws.rs.GET;
-    import javax.ws.rs.Produces;
-    import javax.ws.rs.Path;
+import javax.ws.rs.GET;
+import javax.ws.rs.Produces;
+import javax.ws.rs.Path;
 
-    @Path("/helloworld")
-    public class HelloWorldResource {
-        @GET
-        @Produces("text/plain")
-        public String getClichedMessage() {
-            return "Hello World";
-        }
+@Path("/helloworld")
+public class HelloWorldResource {
+    @GET
+    @Produces("text/plain")
+    public String getClichedMessage() {
+        return "Hello World";
     }
+}
 ```
   5. Adição do arquivo *web.xml*;
   6. Edição do código XML para adicionar um servlet;
