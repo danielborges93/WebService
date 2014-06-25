@@ -13,8 +13,8 @@ cd /Applications/NetBeans/glassfish-4.0/bin/
 ./updatetool
 ```
   - Criação de um projeto Java Web no Netbeans;
-  - Criação da classe HelloWorldResource no projeto;
-  - Adição do código fonte à classe HelloWorldResource;
+  - Criação da classe `HelloWorldResource` no projeto;
+  - Adição do código fonte à classe `HelloWorldResource`;
 ```java
 import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
